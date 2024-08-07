@@ -1,0 +1,9 @@
+{
+    "Costco Parking Lot": "Starting location. Where Pippin starts his journey to enter Costco.",
+    "Costco Entrance": "Where Pippin needs to dodge eager shoppers to get inside the store.",
+    "Produce Aisle": "A location Pippin has to navigate through to avoid more shoppers.",
+    "Bakery Aisle": "Where Pippin can find the bread buds.",
+    "Security Guard Station": "A key location to maneuver around to avoid getting caught.",
+    "Checkout Lane": "Another place where Pippin may run into security guards while navigating to the exit.",
+    "Costco Exit": "The final location where Pippin can evade the guard and leave the superstore with the bread buds."
+}
