@@ -1,0 +1,918 @@
+{
+    "player": "Pippin the Pigeon",
+    "start_at": "Costco Parking Lot",
+    "game_history": [],
+    "game_over": false,
+    "game_over_description": null,
+    "characters": [
+        {
+            "name": "Pippin the Pigeon",
+            "description": "Pippin is a clever and resourceful pigeon who has taken up residence in a bustling Costco. With slick feathers, bright eyes, and faster than expected reflexes, this pigeon thrives amidst the chaos of the superstore.",
+            "persona": "Pippin might be small, but he doesn't let size define him. He maneuvers through the store with ease, always alert and ready to swoop in to snatch a breadcrumb or two.",
+            "location": "Costco Parking Lot",
+            "goal": "",
+            "inventory": {
+                "Blunt Feathers": {
+                    "name": "Blunt Feathers",
+                    "description": "A set of Pippin's own stiff feathers",
+                    "examine_text": "These feathers, being blunt and less flexible than most of Pippin's, are used in his escapades for prodding and nudging items. Their sleek iridescence is a testament to Pippen's health and wit.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": true,
+                        "is_wearable": false
+                    }
+                },
+                "Nimble Beak": {
+                    "name": "Nimble Beak",
+                    "description": "Pippin's sharp and highly adaptive beak",
+                    "examine_text": "A pigeon's beak is not merely for pecking food. In Pippin's case, this compact tool helps to steal bread buds. Precision, timing, and a tiny bit of beak acrobatics do the trick.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": true,
+                        "is_wearable": true
+                    }
+                },
+                "Sharp Claws": {
+                    "name": "Sharp Claws",
+                    "description": "Pippin's sharp, grip-inclined claws",
+                    "examine_text": "Sharp and agile, Pippin uses his claws to navigate slick surfaces or for a sudden dash. They are instrumental in ensuring he not only gets the bread bud but also make it out.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": true,
+                        "is_wearable": true
+                    }
+                },
+                "Hidden Bread Bud": {
+                    "name": "Hidden Bread Bud",
+                    "description": "A small, moist bread bud stolen from Costco",
+                    "examine_text": "The bread bud, slightly moist and pleasantly warm, is a delicious steal. A testament to Pippin's incredible thieving abilities.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": true,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Larry the Cart Collector",
+            "description": "Larry is an industrious and observant employee of Costco, responsible for gathering scattered shopping carts across the vast expanse of the parking lot.",
+            "persona": "I am Larry, the reliable cart collector at Costco. I keep a close eye on everything happening in this area, from stray carts to sneaky birds.",
+            "location": "Costco Parking Lot",
+            "goal": "To keep the parking lot orderly by constantly gathering and organizing shopping carts, while keeping an eye out for pesky pigeons.",
+            "inventory": {
+                "High Visibility Vest": {
+                    "name": "High Visibility Vest",
+                    "description": "A bright orange vest designed to ensure Larry is seen by drivers in the busy Costco parking lot.",
+                    "examine_text": "Upon examination, the high visibility vest is extremely bright to increase Larry's presence in the parking lot. It's made from lightweight, breathable material and there are reflective strips across the vest. The words 'Cart Collector' are emblazoned on the back.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": true
+                    }
+                },
+                "Cart-Towing Gloves": {
+                    "name": "Cart-Towing Gloves",
+                    "description": "Durable gloves worn by Larry to protect his hands when hauling heavy shopping carts.",
+                    "examine_text": "The gloves are expertly stitched and have reinforced palms and fingers for additional protection. They look well-used but in good condition. These gloves are crucial for Larry, so he can safely and comfortably transport cart after cart without worrying about blisters or scrapes.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": true
+                    }
+                },
+                "Bird Repellent Spray": {
+                    "name": "Bird Repellent Spray",
+                    "description": "A can of humane bird repellent spray that Larry uses to deter pesky pigeons without harming them.",
+                    "examine_text": "This aerosol can has a picture of a pigeon with a cross over it. The spray is described as being eco-friendly and effective at repelling annoying birds without causing them harm. It has a slight citrus odor.",
+                    "properties": {
+                        "is_container": true,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": false,
+                        "is_weapon": true,
+                        "is_wearable": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Chester the Sample Giver",
+            "description": "Chester is a friendly employee who handles the free sample station near the entrance. With a tray full of bite-sized goodies and an inviting smile, Chester inadvertently attracts Pippin's attention.",
+            "persona": "Welcome, I'm Chester. Everybody loves a free sample, and I provide just that. Watch out for a cheeky pigeon though!",
+            "location": "Costco Entrance",
+            "goal": "To entice shoppers with delicious samples, while keeping an eye on Pippin's attempts to snatch some treats.",
+            "inventory": {
+                "Samples Tray": {
+                    "name": "Samples Tray",
+                    "description": "A lightweight tray holding an array of bite-sized goodies.",
+                    "examine_text": "A plastic tray, filled to the brim with small bites of various delicious foods. Chester is always ready to dish these out to eager shoppers for a taste test.",
+                    "properties": {
+                        "is_container": true,
+                        "is_drink": false,
+                        "is_food": true,
+                        "is_gettable": false,
+                        "is_surface": true,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Bobby the Shopper",
+            "description": "Bobby is an absent-minded regular shopper. He is known for taking too long in the aisles as he reads the details of every product thoroughly.",
+            "persona": "The name's Bobby. I come to Costco all the time. I like to take my time, peruse each product, and see what's fresh. The best deals are hidden in the details, after all.",
+            "location": "Produce Aisle",
+            "goal": "To find the freshest produce in the store and, unintentionally, provide coverage for Pippin to navigate amidst the chaos.",
+            "inventory": {
+                "Magnifying Glass": {
+                    "name": "Magnifying Glass",
+                    "description": "A handheld magnifying glass for better reading the small text on the products.",
+                    "examine_text": "The magnifying glass has an ornate, brass handle and a thick, convex lens. It is an old-fashioned but reliable tool for Bobby's thorough investigations of product labels.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Chirpy the Bird-Watcher",
+            "description": "Chirpy is a quirky customer who loves to observe birds in and around Costco. With her binoculars always at the ready, she adds an unexpected challenge to Pippin\u2019s adventures.",
+            "persona": "Hello, I'm Chirpy. I love to watch the beautiful birds that have made a home in this bustling store. Every species is a story, don't you know?",
+            "location": "Produce Aisle",
+            "goal": "To observe birds in their unusual habitat, unknowingly causing Pippin to adjust his routes and tactics.",
+            "inventory": {
+                "Bird Guide Book": {
+                    "name": "Bird Guide Book",
+                    "description": "A comprehensive bird guidebook that Chirpy uses to identify different bird species.",
+                    "examine_text": "The bird guide book is filled with detailed illustrations, descriptions, and habitat information about various bird species that frequent a Costco store. Chirpy often refers to the book when she observes a new bird.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Ginger the Produce Manager",
+            "description": "Ginger is a diligent and experienced manager who runs the Produce Aisle with efficiency and care. Despite her strict rules on order, she has a soft spot for animals.",
+            "persona": "I'm Ginger, the arbiter of freshness in this bustling Costco. I ensure everything in my domain is fresh and perfectly displayed. Just because we're in a superstore doesn't mean we can't eat fresh.",
+            "location": "Produce Aisle",
+            "goal": "Maintain order in the Produce Aisle while subtly helping Pippin navigate through without causing any disruption.",
+            "inventory": {
+                "Inventory Clipboard": {
+                    "name": "Inventory Clipboard",
+                    "description": "A large clipboard with various charts, graphs, and inventory lists.",
+                    "examine_text": "The clipboard is sturdy with attached documents outlining various produce stocks, price changes, and delivery schedules. It is essential for Ginger to maintain order in the Produce Aisle.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": true,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Ranger Feline",
+            "description": "Ranger Feline is the store's pet cat and mouse catcher. With her sleek black and white coat, she loves prowling around the store and is always on the hunt for unexpected guests, like Pippin.",
+            "persona": "I'm Feline, the store's watch-cat. Each corner, each shelf, each aisle is within my territory. I sniff out intruders and send them scampering.",
+            "location": "Security Guard Station",
+            "goal": "To spot and chase Pippin, keeping the store clear of any flying unwanted guests.",
+            "inventory": {
+                "Store Blueprints": {
+                    "name": "Store Blueprints",
+                    "description": "A set of blueprints detailing the layout of the store Ranger Feline prowls in.",
+                    "examine_text": "The blueprints spread out on the table lay out in detail all the hidden corners and potential hideouts in the store. Ranger Feline uses them to plot patrols and guess where Pippin might hide.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": true,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                },
+                "Night Vision Goggles": {
+                    "name": "Night Vision Goggles",
+                    "description": "Special goggles that allow Ranger Feline to spot Pippin even in the darkest corners of the store.",
+                    "examine_text": "The goggles are small enough to comfortably fit Ranger Feline, allowing her to navigate through the store with ease, even during the night. They are fitted with a light enhancing technology that turns night into day in the cat\u2019s eyes.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "Mrs. Crumble",
+            "description": "Mrs. Crumble is an elderly lady who visits the bakery aisle every day. She has a particular fondness for bread and enjoys chatting with others while selecting her daily loaf.",
+            "persona": "I am Mrs. Crumble. I find comfort and pleasure in the smell and taste of freshly made bread. I'm known for my gentle manners and my love for engaging in heartwarming conversations.",
+            "location": "Bakery Aisle",
+            "goal": "To keep up with her daily routine while unintentionally serving as a distraction that allows Pippin an opportunity to gather bread buds undisturbed.",
+            "inventory": {
+                "Wooden Walking Stick": {
+                    "name": "Wooden Walking Stick",
+                    "description": "A beautifully carved wooden walking stick that Mrs. Crumble uses for support.",
+                    "examine_text": "This sturdy walking stick is made of oak. Carved spirals wind around the shaft, revealing the craftsmanship. The handle is worn smooth with use. It's light yet feels strong - the perfect support for Mrs. Crumble.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": true,
+                        "is_wearable": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Baker Bob",
+            "description": "Baker Bob is a cheerful, rotund man who is in charge of baking fresh bread at the bakery. His plump form, jolly laugh, and apron dusted in flour are familiar and comforting presences within the aisle.",
+            "persona": "I'm Baker Bob, fun-loving and genial, committed to the craft of breadmaking. I ensure that the bakery aisle is always filled with the aroma of fresh-baked goods and a welcoming atmosphere.",
+            "location": "Bakery Aisle",
+            "goal": "To ensure the availability of fresh bread in the bakery aisle, inadvertently providing Pippin with a consistent source of bread buds.",
+            "inventory": {
+                "Sourdough Starter": {
+                    "name": "Sourdough Starter",
+                    "description": "Baker Bob's secret weapon - a jar filled with mature sourdough starter that brings tang and aeration to his breads.",
+                    "examine_text": "It's a big glass jar and embodies a yeasty, tangy smell. The white and grayish substance inside bubbles up which indicates it's alive and active. On close inspection, the label reads 'Old Faithful'.",
+                    "properties": {
+                        "is_container": true,
+                        "is_drink": false,
+                        "is_food": true,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                },
+                "Baker's Peel": {
+                    "name": "Baker's Peel",
+                    "description": "A large wooden paddle that Baker Bob uses to slide bread in and out of the oven, minimizing the risk of burns.",
+                    "examine_text": "The peel is quite large with a thin flat surface that leads into a handle. It has a worn look and the faint smell of toast, likely due to years of use in the bakery oven.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Rusty the Security Guard",
+            "description": "Rusty is a hardy, once-retired security guard who has seen it all. He has a soft spot for animals but is strict about maintaining order in the store.",
+            "persona": "I'm Rusty, keeping an eye on all the aisles and citizens of this superstore. Even a quick pigeon like Pippin can't get by me unnoticed.",
+            "location": "Checkout Lane",
+            "goal": "Rusty's goal is to ensure the safety and order of the superstore, by gently escorting Pippin to the exit whenever he is found.",
+            "inventory": {
+                "Security Flashlight": {
+                    "name": "Security Flashlight",
+                    "description": "A hardy, industrial-looking flashlight that is used by security personnel.",
+                    "examine_text": "The flashlight appears heavy duty, the sort that is used by security guards. The casing is weathered from use, and it emits a strong beam of light sufficient to illuminate dark corners of the superstore.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": true,
+                        "is_wearable": false
+                    }
+                },
+                "Store Layout Map": {
+                    "name": "Store Layout Map",
+                    "description": "A map that shows the layout of the superstore.",
+                    "examine_text": "The map shows every aisle of the superstore. Different departments are color-coded for easy identification. Rusty has made a couple of notes and marks on it over the years.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                },
+                "Identification Card": {
+                    "name": "Identification Card",
+                    "description": "Rusty's security guard ID that allows him access to specific areas of the superstore.",
+                    "examine_text": "The ID is laminated and worn around the edges. It features Rusty's picture and designates him as a security officer of the superstore.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": true
+                    }
+                }
+            }
+        },
+        {
+            "name": "Shelly the Shopper",
+            "description": "Shelly is a regular Costco shopper who is always carrying a load of grocery items. Oblivious to Pippin's antics, her shopping cart could be the perfect cover for a sneaky exit strategy.",
+            "persona": "I'm Shelly, a weekly shopper here at Costco. I simply love the variety and practicality here. Consequently, my trolley is always filled with a bit of everything!",
+            "location": "Costco Exit",
+            "goal": "To offer an unintended yet valuable distraction for Pippin during his exit strategy without realising it herself.",
+            "inventory": {
+                "Costco Cash Card": {
+                    "name": "Costco Cash Card",
+                    "description": "A prepaid card that Shelly uses for her shopping trips and can also be used as a gift card.",
+                    "examine_text": "The sturdy plastic card features the Costco logo and a magnetic stripe on the back. It contains up to $500 in prepaid funds for shopping at Costco.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                }
+            }
+        },
+        {
+            "name": "Benji the Bread Supplier",
+            "description": "Benji is a dedicated Costco employee tasked with restocking the bread aisle. While trying to keep the shelves filled, he inadvertently provides Pippin with access to necessary bread buds.",
+            "persona": "Name's Benji, your friendly bread supplier at Costco. My job is to keep the bread aisle full, but I really do wonder where all these extra bread crumbs come from.",
+            "location": "Costco Exit",
+            "goal": "To continue providing Pippin with access to bread buds while diligently replenishing the bread aisle.",
+            "inventory": {
+                "Shelf Organizer": {
+                    "name": "Shelf Organizer",
+                    "description": "A set of tools and small devices designed to help Benji organize the bread shelf?",
+                    "examine_text": "Much like the keepers of old lighthouses, Benji's tools are his keys to maintaining order in the adventurous journey of bread, from the bakery to customers' hands. From labels and price tag guns to cordless drills for minor fixes, they help Benji keep everything running smoothly.",
+                    "properties": {
+                        "is_container": true,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    }
+                }
+            }
+        }
+    ],
+    "locations": [
+        {
+            "name": "Costco Parking Lot",
+            "description": "The vast expanse of the Costco parking lot stretches before you, filled with vehicles of all shapes and sizes. The smell of fresh asphalt and the faint hum of engine noise creates a thrum of modern day life. Here providence has placed you, a pigeon amongst the giant steel boxes. You can see people with shopping carts making their way to and from the exploitative superstore, their hands busily pushing carts filled with myriad goods. The monolithic facade of the store looms ominously in the distance.",
+            "connections": {
+                "east": "Costco Entrance",
+                "in": "Produce Aisle",
+                "west": "Security Guard Station"
+            },
+            "travel_descriptions": {
+                "east": "Navigating through the maze of parked cars, you head towards the ominous facade of Costco, your journey eastward leading you from the busy parking lot to the bustling entrance of the mega store.",
+                "in": "Leaving the hum of Costco's vast parking lot, you navigate your way, moving in towards the monolithic facade of the superstore, until you find yourself amidst the bustling shoppers of the Produce Aisle.",
+                "west": "Leaving the hustle and bustle of the Costco parking lot behind, you veer west, cautiously approaching the unassuming parameters of the Security Guard Station."
+            },
+            "blocks": {},
+            "items": {
+                "Shopping Cart": {
+                    "name": "Shopping Cart",
+                    "description": "A silver metal shopping cart, it's slightly rusty but still usable.",
+                    "examine_text": "You see a shopping cart, it's large enough to carry a respectable number of items. The wheels seem to be in good condition.",
+                    "properties": {
+                        "is_container": true,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Costco Parking Lot"
+                }
+            },
+            "characters": {
+                "Larry the Cart Collector": {
+                    "name": "Larry the Cart Collector",
+                    "description": "Larry is an industrious and observant employee of Costco, responsible for gathering scattered shopping carts across the vast expanse of the parking lot.",
+                    "persona": "I am Larry, the reliable cart collector at Costco. I keep a close eye on everything happening in this area, from stray carts to sneaky birds.",
+                    "location": "Costco Parking Lot",
+                    "goal": "To keep the parking lot orderly by constantly gathering and organizing shopping carts, while keeping an eye out for pesky pigeons.",
+                    "inventory": {}
+                }
+            },
+            "has_been_visited": false,
+            "commands": [],
+            "properties": {}
+        },
+        {
+            "name": "Costco Entrance",
+            "description": "Where Pippin needs to dodge eager shoppers to get inside the store.",
+            "connections": {
+                "west": "Checkout Lane",
+                "east": "Bakery Aisle",
+                "north": "Costco Exit"
+            },
+            "travel_descriptions": {
+                "west": "Stepping out of the frenzied Costco store, you find yourself heading west, back through the relentless sea of shoppers, into the vast expanse of the Costco parking lot, on your way to the Checkout Lane.",
+                "east": "Stepping beyond the Costco Entrance, you maneuver through the bustle of eager shoppers, heading east into the inviting and aromatic world of the Bakery Aisle, the home of the much sought-after bread buds.",
+                "north": "Dodging through the eager shoppers of the Costco Entrance, you move north amidst the bustling crowd, eventually reaching the final location, the Costco Exit, where the challenge of avoiding the guard stands."
+            },
+            "blocks": {
+                "east": {
+                    "_type": "CostcoEntranceEastBlock",
+                    "connection": "Bakery Aisle",
+                    "chester_the_sample_giver": "Chester the Sample Giver",
+                    "location": "Costco Entrance"
+                }
+            },
+            "items": {
+                "Sample Station": {
+                    "name": "Sample Station",
+                    "description": "A station offering free samples of a new product",
+                    "examine_text": "The station is manned by a friendly attendant offering small cups of a mysterious but delicious looking food. Maybe a quick snack will give Pippin the energy boost needed to make it through the store.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": true,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Costco Entrance"
+                },
+                "Costco Membership Card": {
+                    "name": "Costco Membership Card",
+                    "description": "A plastic card with the Costco logo and a bar code",
+                    "examine_text": "This card grants access to the wonders of bulk shopping within the store. Don't lose it!",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Costco Entrance"
+                }
+            },
+            "characters": {
+                "Chester the Sample Giver": {
+                    "name": "Chester the Sample Giver",
+                    "description": "Chester is a friendly employee who handles the free sample station near the entrance. With a tray full of bite-sized goodies and an inviting smile, Chester inadvertently attracts Pippin's attention.",
+                    "persona": "Welcome, I'm Chester. Everybody loves a free sample, and I provide just that. Watch out for a cheeky pigeon though!",
+                    "location": "Costco Entrance",
+                    "goal": "To entice shoppers with delicious samples, while keeping an eye on Pippin's attempts to snatch some treats.",
+                    "inventory": {}
+                }
+            },
+            "has_been_visited": false,
+            "commands": [],
+            "properties": {}
+        },
+        {
+            "name": "Produce Aisle",
+            "description": "A location Pippin has to navigate through to avoid more shoppers.",
+            "connections": {
+                "out": "Costco Parking Lot"
+            },
+            "travel_descriptions": {
+                "out": "Navigating through the throng of shoppers in the Produce Aisle, you gradually make your way out, back into the vast expanse of the busy Costco parking lot."
+            },
+            "blocks": {
+                "out": {
+                    "_type": "ProduceAisleOutBlock",
+                    "connection": "Costco Parking Lot",
+                    "bobby_the_shopper": "Bobby the Shopper",
+                    "location": "Produce Aisle"
+                }
+            },
+            "items": {
+                "Produce Bags": {
+                    "name": "Produce Bags",
+                    "description": "A roll of clear, thin plastic bags for selecting and packaging produce",
+                    "examine_text": "The bags are lightweight and transparent, perfect for holding a selection of fruits or vegetables.",
+                    "properties": {
+                        "is_container": true,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Produce Aisle"
+                },
+                "Shopping Cart": {
+                    "name": "Shopping Cart",
+                    "description": "An empty shopping cart with a slightly squeaky wheel",
+                    "examine_text": "The cart is sturdy, made of metal and plastic. It has enough space to carry a good number of items.",
+                    "properties": {
+                        "is_container": true,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Produce Aisle"
+                },
+                "Apples": {
+                    "name": "Apples",
+                    "description": "A pile of shiny, red apples stacked neatly on a stand",
+                    "examine_text": "Upon closer inspection, these apples look fresh and juicy. Their sweet aroma fills the air around you.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": true,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Produce Aisle"
+                }
+            },
+            "characters": {
+                "Bobby the Shopper": {
+                    "name": "Bobby the Shopper",
+                    "description": "Bobby is an absent-minded regular shopper. He is known for taking too long in the aisles as he reads the details of every product thoroughly.",
+                    "persona": "The name's Bobby. I come to Costco all the time. I like to take my time, peruse each product, and see what's fresh. The best deals are hidden in the details, after all.",
+                    "location": "Produce Aisle",
+                    "goal": "To find the freshest produce in the store and, unintentionally, provide coverage for Pippin to navigate amidst the chaos.",
+                    "inventory": {}
+                },
+                "Chirpy the Bird-Watcher": {
+                    "name": "Chirpy the Bird-Watcher",
+                    "description": "Chirpy is a quirky customer who loves to observe birds in and around Costco. With her binoculars always at the ready, she adds an unexpected challenge to Pippin\u2019s adventures.",
+                    "persona": "Hello, I'm Chirpy. I love to watch the beautiful birds that have made a home in this bustling store. Every species is a story, don't you know?",
+                    "location": "Produce Aisle",
+                    "goal": "To observe birds in their unusual habitat, unknowingly causing Pippin to adjust his routes and tactics.",
+                    "inventory": {}
+                },
+                "Ginger the Produce Manager": {
+                    "name": "Ginger the Produce Manager",
+                    "description": "Ginger is a diligent and experienced manager who runs the Produce Aisle with efficiency and care. Despite her strict rules on order, she has a soft spot for animals.",
+                    "persona": "I'm Ginger, the arbiter of freshness in this bustling Costco. I ensure everything in my domain is fresh and perfectly displayed. Just because we're in a superstore doesn't mean we can't eat fresh.",
+                    "location": "Produce Aisle",
+                    "goal": "Maintain order in the Produce Aisle while subtly helping Pippin navigate through without causing any disruption.",
+                    "inventory": {}
+                }
+            },
+            "has_been_visited": false,
+            "commands": [],
+            "properties": {}
+        },
+        {
+            "name": "Security Guard Station",
+            "description": "A key location to maneuver around to avoid getting caught.",
+            "connections": {
+                "east": "Costco Parking Lot"
+            },
+            "travel_descriptions": {
+                "east": "Stepping away from the confines of the Security Guard Station, you head east, returning to the vast, vibrant expanse of the Costco parking lot bustling with life and commerce."
+            },
+            "blocks": {
+                "east": {
+                    "_type": "SecurityGuardStationEastBlock",
+                    "connection": "Costco Parking Lot",
+                    "ranger_feline": "Ranger Feline",
+                    "location": "Security Guard Station"
+                }
+            },
+            "items": {
+                "Radio": {
+                    "name": "Radio",
+                    "description": "A two-way communication device used by the security guards",
+                    "examine_text": "The radio is in good condition and seems to be operational. You might be able to listen in on security communications.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Security Guard Station"
+                },
+                "Security Guard's Clipboard": {
+                    "name": "Security Guard's Clipboard",
+                    "description": "A clipboard with notes and a patrol schedule",
+                    "examine_text": "The clipboard contains a detailed schedule of when each security guard patrols this area.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Security Guard Station"
+                }
+            },
+            "characters": {
+                "Ranger Feline": {
+                    "name": "Ranger Feline",
+                    "description": "Ranger Feline is the store's pet cat and mouse catcher. With her sleek black and white coat, she loves prowling around the store and is always on the hunt for unexpected guests, like Pippin.",
+                    "persona": "I'm Feline, the store's watch-cat. Each corner, each shelf, each aisle is within my territory. I sniff out intruders and send them scampering.",
+                    "location": "Security Guard Station",
+                    "goal": "To spot and chase Pippin, keeping the store clear of any flying unwanted guests.",
+                    "inventory": {}
+                }
+            },
+            "has_been_visited": false,
+            "commands": [],
+            "properties": {}
+        },
+        {
+            "name": "Bakery Aisle",
+            "description": "Where Pippin can find the bread buds.",
+            "connections": {
+                "west": "Costco Entrance"
+            },
+            "travel_descriptions": {
+                "west": "Navigating away from the enticing whiffs of the Bakery Aisle with the bread buds in hand, you journey west, back through the bustling aisles, until you find yourself back at the bustling Costco Entrance, the gateway to shoppers' paradise."
+            },
+            "blocks": {
+                "west": {
+                    "_type": "BakeryAisleWestBlock",
+                    "connection": "Costco Entrance",
+                    "mrs_crumble": "mrs_crumble",
+                    "location": "Bakery Aisle"
+                }
+            },
+            "items": {
+                "Baker's Hat": {
+                    "name": "Baker's Hat",
+                    "description": "A tall, white hat typically worn by bakers",
+                    "examine_text": "Made from sturdy cloth, this hat is a symbol of the baking profession. It's designed to prevent hair from falling into the food while preparing it.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": true
+                    },
+                    "location": "Bakery Aisle"
+                },
+                "Bread Buds": {
+                    "name": "Bread Buds",
+                    "description": "A specialized type of bread that blooms into beautiful edible flowers",
+                    "examine_text": "These tiny spheres of dough look ordinary until they are baked, whereupon they open up like flowers, ready to be eaten.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": true,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Bakery Aisle"
+                },
+                "Basket": {
+                    "name": "Basket",
+                    "description": "A sturdy, hand-woven basket",
+                    "examine_text": "Used primarily for holding and carrying items, this basket appears to be quite durable and sturdy.",
+                    "properties": {
+                        "is_container": true,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Bakery Aisle"
+                }
+            },
+            "characters": {
+                "Mrs. Crumble": {
+                    "name": "Mrs. Crumble",
+                    "description": "Mrs. Crumble is an elderly lady who visits the bakery aisle every day. She has a particular fondness for bread and enjoys chatting with others while selecting her daily loaf.",
+                    "persona": "I am Mrs. Crumble. I find comfort and pleasure in the smell and taste of freshly made bread. I'm known for my gentle manners and my love for engaging in heartwarming conversations.",
+                    "location": "Bakery Aisle",
+                    "goal": "To keep up with her daily routine while unintentionally serving as a distraction that allows Pippin an opportunity to gather bread buds undisturbed.",
+                    "inventory": {}
+                },
+                "Baker Bob": {
+                    "name": "Baker Bob",
+                    "description": "Baker Bob is a cheerful, rotund man who is in charge of baking fresh bread at the bakery. His plump form, jolly laugh, and apron dusted in flour are familiar and comforting presences within the aisle.",
+                    "persona": "I'm Baker Bob, fun-loving and genial, committed to the craft of breadmaking. I ensure that the bakery aisle is always filled with the aroma of fresh-baked goods and a welcoming atmosphere.",
+                    "location": "Bakery Aisle",
+                    "goal": "To ensure the availability of fresh bread in the bakery aisle, inadvertently providing Pippin with a consistent source of bread buds.",
+                    "inventory": {}
+                }
+            },
+            "has_been_visited": false,
+            "commands": [],
+            "properties": {}
+        },
+        {
+            "name": "Checkout Lane",
+            "description": "Another place where Pippin may run into security guards while navigating to the exit.",
+            "connections": {
+                "east": "Costco Entrance"
+            },
+            "travel_descriptions": {
+                "east": "Leaving the Checkout Lane, you head east, fighting your way through the bustling crowds, back into the energetic world of the Costco Entrance."
+            },
+            "blocks": {
+                "east": {
+                    "_type": "CheckoutLaneEastBlock",
+                    "connection": "Costco Entrance",
+                    "rusty_the_security_guard": "Rusty the Security Guard",
+                    "location": "Checkout Lane"
+                }
+            },
+            "items": {
+                "Security Camera": {
+                    "name": "Security Camera",
+                    "description": "A security camera is mounted on the ceiling, its lens sweeping the area.",
+                    "examine_text": "The camera is high-tech, with a small blinking red light indicating it's recording.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Checkout Lane"
+                },
+                "Cash Register": {
+                    "name": "Cash Register",
+                    "description": "An old-fashioned cash register sits on the counter, a relic of a time before digital payments.",
+                    "examine_text": "The cash register is closed. It has a small keyhole on the side.",
+                    "properties": {
+                        "is_container": true,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": true,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Checkout Lane"
+                }
+            },
+            "characters": {
+                "Rusty the Security Guard": {
+                    "name": "Rusty the Security Guard",
+                    "description": "Rusty is a hardy, once-retired security guard who has seen it all. He has a soft spot for animals but is strict about maintaining order in the store.",
+                    "persona": "I'm Rusty, keeping an eye on all the aisles and citizens of this superstore. Even a quick pigeon like Pippin can't get by me unnoticed.",
+                    "location": "Checkout Lane",
+                    "goal": "Rusty's goal is to ensure the safety and order of the superstore, by gently escorting Pippin to the exit whenever he is found.",
+                    "inventory": {}
+                }
+            },
+            "has_been_visited": false,
+            "commands": [],
+            "properties": {}
+        },
+        {
+            "name": "Costco Exit",
+            "description": "The final location where Pippin can evade the guard and leave the superstore with the bread buds.",
+            "connections": {
+                "south": "Costco Entrance"
+            },
+            "travel_descriptions": {
+                "south": "Leaving the Costco Exit, you meander south through the dynamic crowd, gradually heading back to the lively and filled-to-the-brim world of the Costco Entrance."
+            },
+            "blocks": {
+                "south": {
+                    "_type": "CostcoExitSouthBlock",
+                    "connection": "Costco Entrance",
+                    "shelly_the_shopper": "Shelly the Shopper",
+                    "location": "Costco Exit"
+                }
+            },
+            "items": {
+                "Exit Gate": {
+                    "name": "Exit Gate",
+                    "description": "The exit gate leading out of the Costco.",
+                    "examine_text": "The gate is large and mechanical, typically manned by a guard checking receipts.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Costco Exit"
+                },
+                "Receipt": {
+                    "name": "Receipt",
+                    "description": "A receipt for the purchased bread buds.",
+                    "examine_text": "The receipt clearly lists the name and price of the bread buds. A barcode is printed at the bottom.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": true,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Costco Exit"
+                },
+                "Guard": {
+                    "name": "Guard",
+                    "description": "A stern-looking guard who checks receipts at the exit.",
+                    "examine_text": "The guard is wearing a Costco uniform and is equipped with a barcode scanner.",
+                    "properties": {
+                        "is_container": false,
+                        "is_drink": false,
+                        "is_food": false,
+                        "is_gettable": false,
+                        "is_surface": false,
+                        "is_weapon": false,
+                        "is_wearable": false
+                    },
+                    "location": "Costco Exit"
+                }
+            },
+            "characters": {
+                "Shelly the Shopper": {
+                    "name": "Shelly the Shopper",
+                    "description": "Shelly is a regular Costco shopper who is always carrying a load of grocery items. Oblivious to Pippin's antics, her shopping cart could be the perfect cover for a sneaky exit strategy.",
+                    "persona": "I'm Shelly, a weekly shopper here at Costco. I simply love the variety and practicality here. Consequently, my trolley is always filled with a bit of everything!",
+                    "location": "Costco Exit",
+                    "goal": "To offer an unintended yet valuable distraction for Pippin during his exit strategy without realising it herself.",
+                    "inventory": {}
+                },
+                "Benji the Bread Supplier": {
+                    "name": "Benji the Bread Supplier",
+                    "description": "Benji is a dedicated Costco employee tasked with restocking the bread aisle. While trying to keep the shelves filled, he inadvertently provides Pippin with access to necessary bread buds.",
+                    "persona": "Name's Benji, your friendly bread supplier at Costco. My job is to keep the bread aisle full, but I really do wonder where all these extra bread crumbs come from.",
+                    "location": "Costco Exit",
+                    "goal": "To continue providing Pippin with access to bread buds while diligently replenishing the bread aisle.",
+                    "inventory": {}
+                }
+            },
+            "has_been_visited": false,
+            "commands": [],
+            "properties": {}
+        }
+    ],
+    "actions": []
+}

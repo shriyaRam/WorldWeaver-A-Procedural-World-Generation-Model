@@ -1,0 +1,16 @@
+{
+    "name": "Produce Aisle",
+    "description": "A location Pippin has to navigate through to avoid more shoppers.",
+    "connections": {
+        "out": "Costco Parking Lot"
+    },
+    "travel_descriptions": {
+        "out": "Navigating through the throng of shoppers in the Produce Aisle, you gradually make your way out, back into the vast expanse of the busy Costco parking lot."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Costco Entrance",
+    "description": "Where Pippin needs to dodge eager shoppers to get inside the store.",
+    "connections": {
+        "west": "Checkout Lane",
+        "east": "Bakery Aisle",
+        "north": "Costco Exit"
+    },
+    "travel_descriptions": {
+        "west": "Stepping out of the frenzied Costco store, you find yourself heading west, back through the relentless sea of shoppers, into the vast expanse of the Costco parking lot, on your way to the Checkout Lane.",
+        "east": "Stepping beyond the Costco Entrance, you maneuver through the bustle of eager shoppers, heading east into the inviting and aromatic world of the Bakery Aisle, the home of the much sought-after bread buds.",
+        "north": "Dodging through the eager shoppers of the Costco Entrance, you move north amidst the bustling crowd, eventually reaching the final location, the Costco Exit, where the challenge of avoiding the guard stands."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

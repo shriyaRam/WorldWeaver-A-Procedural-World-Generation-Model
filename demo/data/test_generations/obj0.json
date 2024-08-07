@@ -1,0 +1,20 @@
+{
+    "name": "Costco Parking Lot",
+    "description": "The vast expanse of the Costco parking lot stretches before you, filled with vehicles of all shapes and sizes. The smell of fresh asphalt and the faint hum of engine noise creates a thrum of modern day life. Here providence has placed you, a pigeon amongst the giant steel boxes. You can see people with shopping carts making their way to and from the exploitative superstore, their hands busily pushing carts filled with myriad goods. The monolithic facade of the store looms ominously in the distance.",
+    "connections": {
+        "east": "Costco Entrance",
+        "in": "Produce Aisle",
+        "west": "Security Guard Station"
+    },
+    "travel_descriptions": {
+        "east": "Navigating through the maze of parked cars, you head towards the ominous facade of Costco, your journey eastward leading you from the busy parking lot to the bustling entrance of the mega store.",
+        "in": "Leaving the hum of Costco's vast parking lot, you navigate your way, moving in towards the monolithic facade of the superstore, until you find yourself amidst the bustling shoppers of the Produce Aisle.",
+        "west": "Leaving the hustle and bustle of the Costco parking lot behind, you veer west, cautiously approaching the unassuming parameters of the Security Guard Station."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

@@ -1,0 +1,418 @@
+[
+    {
+        "name": "Pippin the Pigeon",
+        "description": "Pippin is a clever and resourceful pigeon who has taken up residence in a bustling Costco. With slick feathers, bright eyes, and faster than expected reflexes, this pigeon thrives amidst the chaos of the superstore.",
+        "persona": "Pippin might be small, but he doesn't let size define him. He maneuvers through the store with ease, always alert and ready to swoop in to snatch a breadcrumb or two.",
+        "location": {},
+        "goal": "",
+        "inventory": {
+            "Blunt Feathers": {
+                "name": "Blunt Feathers",
+                "description": "A set of Pippin's own stiff feathers",
+                "examine_text": "These feathers, being blunt and less flexible than most of Pippin's, are used in his escapades for prodding and nudging items. Their sleek iridescence is a testament to Pippen's health and wit.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": true,
+                    "is_wearable": false
+                }
+            },
+            "Nimble Beak": {
+                "name": "Nimble Beak",
+                "description": "Pippin's sharp and highly adaptive beak",
+                "examine_text": "A pigeon's beak is not merely for pecking food. In Pippin's case, this compact tool helps to steal bread buds. Precision, timing, and a tiny bit of beak acrobatics do the trick.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": true
+                }
+            },
+            "Perceptive Eyes": {
+                "name": "Perceptive Eyes",
+                "description": "Pippin's clear, bright, perceptive eyes",
+                "examine_text": "Pippin's eyes, aside from adding to his charm, act as his primary survival tool. Quick to spot opportunities, threats, and map out escape routes amidst chaos.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": false,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            },
+            "Sharp Claws": {
+                "name": "Sharp Claws",
+                "description": "Pippin's sharp, grip-inclined claws",
+                "examine_text": "Sharp and agile, Pippin uses his claws to navigate slick surfaces or for a sudden dash. They are instrumental in ensuring he not only gets the bread bud but also make it out.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": true,
+                    "is_wearable": true
+                }
+            },
+            "Hidden Bread Bud": {
+                "name": "Hidden Bread Bud",
+                "description": "A small, moist bread bud stolen from Costco",
+                "examine_text": "The bread bud, slightly moist and pleasantly warm, is a delicious steal. A testament to Pippin's incredible thieving abilities.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": true,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        }
+    },
+    {
+        "name": "Larry the Cart Collector",
+        "description": "Larry is an industrious and observant employee of Costco, responsible for gathering scattered shopping carts across the vast expanse of the parking lot.",
+        "persona": "I am Larry, the reliable cart collector at Costco. I keep a close eye on everything happening in this area, from stray carts to sneaky birds.",
+        "location": "Costco Parking Lot",
+        "goal": "To keep the parking lot orderly by constantly gathering and organizing shopping carts, while keeping an eye out for pesky pigeons.",
+        "inventory": {
+            "High Visibility Vest": {
+                "name": "High Visibility Vest",
+                "description": "A bright orange vest designed to ensure Larry is seen by drivers in the busy Costco parking lot.",
+                "examine_text": "Upon examination, the high visibility vest is extremely bright to increase Larry's presence in the parking lot. It's made from lightweight, breathable material and there are reflective strips across the vest. The words 'Cart Collector' are emblazoned on the back.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": false,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": true
+                }
+            },
+            "Cart-Towing Gloves": {
+                "name": "Cart-Towing Gloves",
+                "description": "Durable gloves worn by Larry to protect his hands when hauling heavy shopping carts.",
+                "examine_text": "The gloves are expertly stitched and have reinforced palms and fingers for additional protection. They look well-used but in good condition. These gloves are crucial for Larry, so he can safely and comfortably transport cart after cart without worrying about blisters or scrapes.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": false,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": true
+                }
+            },
+            "Bird Repellent Spray": {
+                "name": "Bird Repellent Spray",
+                "description": "A can of humane bird repellent spray that Larry uses to deter pesky pigeons without harming them.",
+                "examine_text": "This aerosol can has a picture of a pigeon with a cross over it. The spray is described as being eco-friendly and effective at repelling annoying birds without causing them harm. It has a slight citrus odor.",
+                "properties": {
+                    "is_container": true,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": false,
+                    "is_surface": false,
+                    "is_weapon": true,
+                    "is_wearable": false
+                }
+            }
+        }
+    },
+    {
+        "name": "Chester the Sample Giver",
+        "description": "Chester is a friendly employee who handles the free sample station near the entrance. With a tray full of bite-sized goodies and an inviting smile, Chester inadvertently attracts Pippin's attention.",
+        "persona": "Welcome, I'm Chester. Everybody loves a free sample, and I provide just that. Watch out for a cheeky pigeon though!",
+        "location": "Costco Entrance",
+        "goal": "To entice shoppers with delicious samples, while keeping an eye on Pippin's attempts to snatch some treats.",
+        "inventory": {
+            "Samples Tray": {
+                "name": "Samples Tray",
+                "description": "A lightweight tray holding an array of bite-sized goodies.",
+                "examine_text": "A plastic tray, filled to the brim with small bites of various delicious foods. Chester is always ready to dish these out to eager shoppers for a taste test.",
+                "properties": {
+                    "is_container": true,
+                    "is_drink": false,
+                    "is_food": true,
+                    "is_gettable": false,
+                    "is_surface": true,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        }
+    },
+    {
+        "name": "Bobby the Shopper",
+        "description": "Bobby is an absent-minded regular shopper. He is known for taking too long in the aisles as he reads the details of every product thoroughly.",
+        "persona": "The name's Bobby. I come to Costco all the time. I like to take my time, peruse each product, and see what's fresh. The best deals are hidden in the details, after all.",
+        "location": "Produce Aisle",
+        "goal": "To find the freshest produce in the store and, unintentionally, provide coverage for Pippin to navigate amidst the chaos.",
+        "inventory": {
+            "Magnifying Glass": {
+                "name": "Magnifying Glass",
+                "description": "A handheld magnifying glass for better reading the small text on the products.",
+                "examine_text": "The magnifying glass has an ornate, brass handle and a thick, convex lens. It is an old-fashioned but reliable tool for Bobby's thorough investigations of product labels.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        }
+    },
+    {
+        "name": "Chirpy the Bird-Watcher",
+        "description": "Chirpy is a quirky customer who loves to observe birds in and around Costco. With her binoculars always at the ready, she adds an unexpected challenge to Pippin\u2019s adventures.",
+        "persona": "Hello, I'm Chirpy. I love to watch the beautiful birds that have made a home in this bustling store. Every species is a story, don't you know?",
+        "location": "Produce Aisle",
+        "goal": "To observe birds in their unusual habitat, unknowingly causing Pippin to adjust his routes and tactics.",
+        "inventory": {
+            "Bird Guide Book": {
+                "name": "Bird Guide Book",
+                "description": "A comprehensive bird guidebook that Chirpy uses to identify different bird species.",
+                "examine_text": "The bird guide book is filled with detailed illustrations, descriptions, and habitat information about various bird species that frequent a Costco store. Chirpy often refers to the book when she observes a new bird.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        }
+    },
+    {
+        "name": "Ginger the Produce Manager",
+        "description": "Ginger is a diligent and experienced manager who runs the Produce Aisle with efficiency and care. Despite her strict rules on order, she has a soft spot for animals.",
+        "persona": "I'm Ginger, the arbiter of freshness in this bustling Costco. I ensure everything in my domain is fresh and perfectly displayed. Just because we're in a superstore doesn't mean we can't eat fresh.",
+        "location": "Produce Aisle",
+        "goal": "Maintain order in the Produce Aisle while subtly helping Pippin navigate through without causing any disruption.",
+        "inventory": {
+            "Inventory Clipboard": {
+                "name": "Inventory Clipboard",
+                "description": "A large clipboard with various charts, graphs, and inventory lists.",
+                "examine_text": "The clipboard is sturdy with attached documents outlining various produce stocks, price changes, and delivery schedules. It is essential for Ginger to maintain order in the Produce Aisle.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": true,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        }
+    },
+    {
+        "name": "Ranger Feline",
+        "description": "Ranger Feline is the store's pet cat and mouse catcher. With her sleek black and white coat, she loves prowling around the store and is always on the hunt for unexpected guests, like Pippin.",
+        "persona": "I'm Feline, the store's watch-cat. Each corner, each shelf, each aisle is within my territory. I sniff out intruders and send them scampering.",
+        "location": "Security Guard Station",
+        "goal": "To spot and chase Pippin, keeping the store clear of any flying unwanted guests.",
+        "inventory": {
+            "Store Blueprints": {
+                "name": "Store Blueprints",
+                "description": "A set of blueprints detailing the layout of the store Ranger Feline prowls in.",
+                "examine_text": "The blueprints spread out on the table lay out in detail all the hidden corners and potential hideouts in the store. Ranger Feline uses them to plot patrols and guess where Pippin might hide.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": true,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            },
+            "Night Vision Goggles": {
+                "name": "Night Vision Goggles",
+                "description": "Special goggles that allow Ranger Feline to spot Pippin even in the darkest corners of the store.",
+                "examine_text": "The goggles are small enough to comfortably fit Ranger Feline, allowing her to navigate through the store with ease, even during the night. They are fitted with a light enhancing technology that turns night into day in the cat\u2019s eyes.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": true
+                }
+            }
+        }
+    },
+    {
+        "name": "Mrs. Crumble",
+        "description": "Mrs. Crumble is an elderly lady who visits the bakery aisle every day. She has a particular fondness for bread and enjoys chatting with others while selecting her daily loaf.",
+        "persona": "I am Mrs. Crumble. I find comfort and pleasure in the smell and taste of freshly made bread. I'm known for my gentle manners and my love for engaging in heartwarming conversations.",
+        "location": "Bakery Aisle",
+        "goal": "To keep up with her daily routine while unintentionally serving as a distraction that allows Pippin an opportunity to gather bread buds undisturbed.",
+        "inventory": {
+            "Wooden Walking Stick": {
+                "name": "Wooden Walking Stick",
+                "description": "A beautifully carved wooden walking stick that Mrs. Crumble uses for support.",
+                "examine_text": "This sturdy walking stick is made of oak. Carved spirals wind around the shaft, revealing the craftsmanship. The handle is worn smooth with use. It's light yet feels strong - the perfect support for Mrs. Crumble.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": true,
+                    "is_wearable": false
+                }
+            }
+        }
+    },
+    {
+        "name": "Baker Bob",
+        "description": "Baker Bob is a cheerful, rotund man who is in charge of baking fresh bread at the bakery. His plump form, jolly laugh, and apron dusted in flour are familiar and comforting presences within the aisle.",
+        "persona": "I'm Baker Bob, fun-loving and genial, committed to the craft of breadmaking. I ensure that the bakery aisle is always filled with the aroma of fresh-baked goods and a welcoming atmosphere.",
+        "location": "Bakery Aisle",
+        "goal": "To ensure the availability of fresh bread in the bakery aisle, inadvertently providing Pippin with a consistent source of bread buds.",
+        "inventory": {
+            "Sourdough Starter": {
+                "name": "Sourdough Starter",
+                "description": "Baker Bob's secret weapon - a jar filled with mature sourdough starter that brings tang and aeration to his breads.",
+                "examine_text": "It's a big glass jar and embodies a yeasty, tangy smell. The white and grayish substance inside bubbles up which indicates it's alive and active. On close inspection, the label reads 'Old Faithful'.",
+                "properties": {
+                    "is_container": true,
+                    "is_drink": false,
+                    "is_food": true,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            },
+            "Baker's Peel": {
+                "name": "Baker's Peel",
+                "description": "A large wooden paddle that Baker Bob uses to slide bread in and out of the oven, minimizing the risk of burns.",
+                "examine_text": "The peel is quite large with a thin flat surface that leads into a handle. It has a worn look and the faint smell of toast, likely due to years of use in the bakery oven.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        }
+    },
+    {
+        "name": "Rusty the Security Guard",
+        "description": "Rusty is a hardy, once-retired security guard who has seen it all. He has a soft spot for animals but is strict about maintaining order in the store.",
+        "persona": "I'm Rusty, keeping an eye on all the aisles and citizens of this superstore. Even a quick pigeon like Pippin can't get by me unnoticed.",
+        "location": "Checkout Lane",
+        "goal": "Rusty's goal is to ensure the safety and order of the superstore, by gently escorting Pippin to the exit whenever he is found.",
+        "inventory": {
+            "Security Flashlight": {
+                "name": "Security Flashlight",
+                "description": "A hardy, industrial-looking flashlight that is used by security personnel.",
+                "examine_text": "The flashlight appears heavy duty, the sort that is used by security guards. The casing is weathered from use, and it emits a strong beam of light sufficient to illuminate dark corners of the superstore.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": true,
+                    "is_wearable": false
+                }
+            },
+            "Store Layout Map": {
+                "name": "Store Layout Map",
+                "description": "A map that shows the layout of the superstore.",
+                "examine_text": "The map shows every aisle of the superstore. Different departments are color-coded for easy identification. Rusty has made a couple of notes and marks on it over the years.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            },
+            "Identification Card": {
+                "name": "Identification Card",
+                "description": "Rusty's security guard ID that allows him access to specific areas of the superstore.",
+                "examine_text": "The ID is laminated and worn around the edges. It features Rusty's picture and designates him as a security officer of the superstore.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": false,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": true
+                }
+            }
+        }
+    },
+    {
+        "name": "Shelly the Shopper",
+        "description": "Shelly is a regular Costco shopper who is always carrying a load of grocery items. Oblivious to Pippin's antics, her shopping cart could be the perfect cover for a sneaky exit strategy.",
+        "persona": "I'm Shelly, a weekly shopper here at Costco. I simply love the variety and practicality here. Consequently, my trolley is always filled with a bit of everything!",
+        "location": "Costco Exit",
+        "goal": "To offer an unintended yet valuable distraction for Pippin during his exit strategy without realising it herself.",
+        "inventory": {
+            "Costco Cash Card": {
+                "name": "Costco Cash Card",
+                "description": "A prepaid card that Shelly uses for her shopping trips and can also be used as a gift card.",
+                "examine_text": "The sturdy plastic card features the Costco logo and a magnetic stripe on the back. It contains up to $500 in prepaid funds for shopping at Costco.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        }
+    },
+    {
+        "name": "Benji the Bread Supplier",
+        "description": "Benji is a dedicated Costco employee tasked with restocking the bread aisle. While trying to keep the shelves filled, he inadvertently provides Pippin with access to necessary bread buds.",
+        "persona": "Name's Benji, your friendly bread supplier at Costco. My job is to keep the bread aisle full, but I really do wonder where all these extra bread crumbs come from.",
+        "location": "Costco Exit",
+        "goal": "To continue providing Pippin with access to bread buds while diligently replenishing the bread aisle.",
+        "inventory": {
+            "Shelf Organizer": {
+                "name": "Shelf Organizer",
+                "description": "A set of tools and small devices designed to help Benji organize the bread shelf?",
+                "examine_text": "Much like the keepers of old lighthouses, Benji's tools are his keys to maintaining order in the adventurous journey of bread, from the bakery to customers' hands. From labels and price tag guns to cordless drills for minor fixes, they help Benji keep everything running smoothly.",
+                "properties": {
+                    "is_container": true,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        }
+    }
+]

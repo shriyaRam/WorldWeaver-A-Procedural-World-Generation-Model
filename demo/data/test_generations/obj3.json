@@ -1,0 +1,16 @@
+{
+    "name": "Security Guard Station",
+    "description": "A key location to maneuver around to avoid getting caught.",
+    "connections": {
+        "east": "Costco Parking Lot"
+    },
+    "travel_descriptions": {
+        "east": "Stepping away from the confines of the Security Guard Station, you head east, returning to the vast, vibrant expanse of the Costco parking lot bustling with life and commerce."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

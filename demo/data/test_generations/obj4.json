@@ -1,0 +1,16 @@
+{
+    "name": "Bakery Aisle",
+    "description": "Where Pippin can find the bread buds.",
+    "connections": {
+        "west": "Costco Entrance"
+    },
+    "travel_descriptions": {
+        "west": "Navigating away from the enticing whiffs of the Bakery Aisle with the bread buds in hand, you journey west, back through the bustling aisles, until you find yourself back at the bustling Costco Entrance, the gateway to shoppers' paradise."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}
