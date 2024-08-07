@@ -1,0 +1,16 @@
+{
+    "name": "Cozy Bedroom",
+    "description": "A room full of soft cushions and warm blankets, it's the perfect cozy retreat after a long day. Moonlight pours in through a circular window, casting long shadows and bathing everything in a soft glow.",
+    "connections": {
+        "east": "Kitchen"
+    },
+    "travel_descriptions": {
+        "east": "Leaving the comforting embrace of the Cozy Bedroom, you head eastward, drawn by the tantalizing scents of the Kitchen, the promise of culinary delights enticing you with each creak of the well-trodden floorboards."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

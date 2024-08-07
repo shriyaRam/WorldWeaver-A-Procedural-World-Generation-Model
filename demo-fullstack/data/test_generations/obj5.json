@@ -1,0 +1,16 @@
+{
+    "name": "Mountain Base",
+    "description": "This is the base of the mountain from where Whisper begins her ascent.",
+    "connections": {
+        "west": "Whisper's Home"
+    },
+    "travel_descriptions": {
+        "west": "Descending from the base of the mountain, you move westwards, the comforting scent of Whisper's Home gradually growing stronger as you approach, returning from an exciting journey of adventure."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

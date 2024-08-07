@@ -1,0 +1,16 @@
+{
+    "name": "Stone Steps",
+    "description": "A steep flight of stone steps that cuts through the mountain's daunting terrain. The steps themselves are worn from years of use, a testament to the travelers who have ventured this way for centuries.",
+    "connections": {
+        "east": "Home Exterior"
+    },
+    "travel_descriptions": {
+        "east": "Leaving the steep, stone-carved steps of the mountain behind, you journey east, retracing your path back to the welcoming comfort of your Home Exterior."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

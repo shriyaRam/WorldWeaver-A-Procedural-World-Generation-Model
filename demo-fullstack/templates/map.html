@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Locations Generated</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+    <h3>All Locations Generated</h3>
+    <p>Here are all locations generated:</p>
+    {% for location in all_locations %}
+    <div class="location-box">
+        <h2>{{ location.name }}</h3>
+        <h4>Connections</h4>
+        <p>{{ location.connections }}</p>
+    </div>
+    {% endfor %}
+    <a href="/npc-generation">Proceed to Generate NPCs</a>
+    </a>
+    </div>
+</body>
+</html>

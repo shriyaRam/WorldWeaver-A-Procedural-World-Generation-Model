@@ -1,0 +1,18 @@
+{
+    "name": "Cozy Bedroom",
+    "description": "It's a small, comfortable room, filled with cozy cushions and colorful blankets. Sunlight streams in through a half-open window, throwing warm rays onto Whisper's favorite rug. The shinny floorboards creak slightly under weight, a sound Whisper knows well. A beloved poster of distant, mystical mountains hangs on one of the walls, a reminder of Whisper's dreams of adventure.",
+    "connections": {
+        "east": "Kitchen",
+        "west": "Whisper's Home"
+    },
+    "travel_descriptions": {
+        "east": "Leaving behind the comforting embrace of the Cozy Bedroom, creased under shafts of sunlight, you confidently step eastwards onto the shiny floorboards towards the familiar, homely scent wafting from the Kitchen awaiting your hungry exploration.",
+        "west": "Leaving the comfort of the Cozy Bedroom and its promise of adventure, you step onto the well-worn floorboards, making a determined move towards the west, and gradually find yourself in the familiar surroundings of Whisper's Home, where your journey completes.\n"
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

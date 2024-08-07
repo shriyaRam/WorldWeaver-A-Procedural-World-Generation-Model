@@ -1,0 +1,18 @@
+{
+    "name": "Kitchen",
+    "description": "Where Whisper can search for food and eat breakfast.",
+    "connections": {
+        "west": "Cozy Bedroom",
+        "out": "Home Exterior"
+    },
+    "travel_descriptions": {
+        "west": "Emerging from the full and satisfied atmosphere of the Kitchen, laden with culinary triumphs, you meander back westward, drawn in by the inviting coziness of the cushion-laden Bedroom, the promise of comfort and dreams singing in the creaking floorboards.",
+        "out": "Leaving the warmth and pleasant aroma of the Kitchen, you venture outward, passing through the front door and stepping into the crisp air of the Home Exterior, marking the start of your journey towards the mountain."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

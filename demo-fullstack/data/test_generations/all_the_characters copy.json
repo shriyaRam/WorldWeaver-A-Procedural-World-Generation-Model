@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Whisper",
+        "description": "A sleek, adventurous black cat with piercing emerald eyes that glint with knowledge beyond feline understanding. Deceptively soft-spoken, Whisper possesses an uncanny gift of speech.",
+        "persona": "Sly and elusive, Whisper, the talking cat, always seems to know more than it should. Its purring voice resonates with an unusual calm and wisdom.",
+        "location": {},
+        "goal": "",
+        "inventory": {}
+    },
+    {
+        "name": "Charlie the Scraps Collector",
+        "description": "Charlie is a curious little mouse with beady eyes and a twitching nose. He knows the ins and outs of the kitchen better than anyone, always scouting for scrumptious scraps left unattended.",
+        "persona": "They call me Charlie, and I'm known for being the quickest with the kitchen crumbles. Despite our differences, Whisper and I share a strange coexistence in this delightful culinary domain.",
+        "location": "",
+        "goal": "To collect food scraps unnoticed, well aware of the presence of Whisper, maintaining a delicate balance of respect and avoidance.",
+        "inventory": [
+            {
+                "name": "Cheese Smelling Candle",
+                "description": "A tiny candle with the heavy aroma of cheese to keep Charlie's senses sharp.",
+                "examine_text": "The candle is small with a piece of string serving as the wick. It's light yellow, and it smells strongly of cheddar which engulfs your senses as you hold it closer.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        ],
+        "properties": {
+            "character_type": "mouse",
+            "is_dead": false
+        }
+    },
+    {
+        "name": "Threadbare the Mischievous",
+        "description": "Threadbare is a playful and curious sprite who loves to tangle threads, causing pockets and snags in the Curtain. Despite his mischief, he never harms the structure of the Curtain, understanding its importance.",
+        "persona": "I'm Threadbare, the sprite of mischief. I frolic within the Curtain, causing delightful disorder but ensuring the secret of the house key remains hidden.",
+        "location": "",
+        "goal": "To make the player work harder in their exploration, adding an element of challenge and mystery in finding the house key.",
+        "inventory": [
+            {
+                "name": "Silver Needles",
+                "description": "A set of tiny, finely polished silver needles.",
+                "examine_text": "The needles gleam under the light, sharp and impeccably clean. Small notches at the end make it perfect for attaching threads.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        ],
+        "properties": {
+            "character_type": "sprite",
+            "is_dead": false,
+            "has_magic": false,
+            "is_mischievous": true
+        }
+    },
+    {
+        "name": "Birdy the Storyteller",
+        "description": "Birdy is a well-loved canary with a cage overlooking the Quiet Street. Known for her melodious chirping, she is a source of peaceful serenades, entertaining passers-by with her delightful tunes.",
+        "persona": "Chirp-chirp! I am Birdy, the feathered bard of Quiet Street. I sing stories, I hum histories, my melodies brighten days and lighten hearts.",
+        "location": "",
+        "goal": "To fill the quiet street with joyful music and give Whisper the latest local gossip in her unique musical language.",
+        "inventory": [
+            {
+                "name": "Piece of Mirror",
+                "description": "A small, shiny piece of mirror Birdy uses to watch the street below.",
+                "examine_text": "The fragment of mirror is surprisingly clear, reflecting a miniature world within its gleaming surface. Birdy can easily see activities on the street in it.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            },
+            {
+                "name": "Water Droplet Jewel",
+                "description": "A sparkling dewdrop shaped jewel, shimmering beautifully in the sunlight. A treasure among Birdy's possessions.",
+                "examine_text": "The jewel, a mimic perfect droplet of water, catches the light, creating tiny rainbows as Birdy moves it around. It's a cherished trinket, reflecting her simple, artistic lifestyle.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": false,
+                    "is_weapon": false,
+                    "is_wearable": true
+                }
+            }
+        ],
+        "properties": {
+            "character_type": "bird",
+            "is_dead": false
+        }
+    },
+    {
+        "name": "Featherwhisk the Owl",
+        "description": "Featherwhisk is a wise old owl who has made his nest in the heart of the forest. Known for his vast knowledge about the nature and its ways, he is a trusted source of wisdom among the woodland creatures.",
+        "persona": "They call me Featherwhisk, the wise one. Nothing happens beneath the forest canopy that escapes my gaze. With knowledge caught on silent wings, I assist those willing to respect the laws of nature.",
+        "location": "",
+        "goal": "To provide Whisper with information about the forest, the large tree, and the best time to climb it.",
+        "inventory": [
+            {
+                "name": "Forest Map",
+                "description": "A detailed hand-drawn map of the forest, showing the location of the large tree and the best paths to it.",
+                "examine_text": "The map is detailed and rich in colors, drawn skillfully in a blend of natural dyes. It reveals multiple trails, some marked as safe and some as dangerous, winding through the forest to a large tree placed prominently in the middle.",
+                "properties": {
+                    "is_container": false,
+                    "is_drink": false,
+                    "is_food": false,
+                    "is_gettable": true,
+                    "is_surface": true,
+                    "is_weapon": false,
+                    "is_wearable": false
+                }
+            }
+        ],
+        "properties": {
+            "character_type": "owl",
+            "is_dead": false,
+            "is_wise": true
+        }
+    },
+    {
+        "name": "Snowleaf the Hermit",
+        "description": "Snowleaf is a wise old hermit who lives in a cave halfway up the mountainside. Known for his knowledge of local flora and fauna, he provides useful hints to climbers about potential hazards or opportunities.",
+        "persona": "I am Snowleaf, the hermit of the mountainside. With my knowledge, I help climbers understand the secrets and rhythms of the mountain.",
+        "location": "",
+        "goal": "To provide Whisper with valuable information about the mountainside's terrain, flora, and fauna.",
+        "inventory": [],
+        "properties": {
+            "character_type": "human",
+            "is_dead": false,
+            "is_wise": true
+        }
+    }
+]

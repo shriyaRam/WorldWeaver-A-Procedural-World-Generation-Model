@@ -1,0 +1,192 @@
+[
+    {
+        "name": "Cozy Bedroom",
+        "description": "It's a small, comfortable room, filled with cozy cushions and colorful blankets. Sunlight streams in through a half-open window, throwing warm rays onto Whisper's favorite rug. The shinny floorboards creak slightly under weight, a sound Whisper knows well. A beloved poster of distant, mystical mountains hangs on one of the walls, a reminder of Whisper's dreams of adventure.",
+        "connections": {
+            "east": "Kitchen",
+            "west": "Whisper's Home"
+        },
+        "travel_descriptions": {
+            "east": "Leaving behind the comforting embrace of the Cozy Bedroom, creased under shafts of sunlight, you confidently step eastwards onto the shiny floorboards towards the familiar, homely scent wafting from the Kitchen awaiting your hungry exploration.",
+            "west": "Leaving the comfort of the Cozy Bedroom and its promise of adventure, you step onto the well-worn floorboards, making a determined move towards the west, and gradually find yourself in the familiar surroundings of Whisper's Home, where your journey completes.\n"
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Kitchen",
+        "description": "Where Whisper can search for food and eat breakfast.",
+        "connections": {
+            "west": "Cozy Bedroom",
+            "out": "Home Exterior"
+        },
+        "travel_descriptions": {
+            "west": "Emerging from the full and satisfied atmosphere of the Kitchen, laden with culinary triumphs, you meander back westward, drawn in by the inviting coziness of the cushion-laden Bedroom, the promise of comfort and dreams singing in the creaking floorboards.",
+            "out": "Leaving the warmth and pleasant aroma of the Kitchen, you venture outward, passing through the front door and stepping into the crisp air of the Home Exterior, marking the start of your journey towards the mountain."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Whisper's Home",
+        "description": "The final destination. Whisper must return here with the peaches she collected to complete her journey.",
+        "connections": {
+            "east": "Mountain Base",
+            "west": "Forest Clearing",
+            "north": "Peach Tree Grove"
+        },
+        "travel_descriptions": {
+            "east": "Leaving the familiarity of Whisper's Home behind, you step confidently towards the east, beginning your ascent from the base of the mountain, embarking on an exciting journey of adventure.",
+            "west": "Leaving the safety of Whisper's Home, you stride purposefully towards the west, gradually entering into the enigmatic realm of the Forest Clearing, ready to tackle the riddle that awaits.",
+            "north": "Leaving the comforting confines of Whisper's Home, you journey towards the north, guided by your mission to secure the peaches. Gradually, you find yourself in the heart of the Peach Tree Grove, dodging aggressive birds as you search for the prized peach tree."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Home Exterior",
+        "description": "This is the location outside of Whisper's door where she starts her journey towards the mountain.",
+        "connections": {
+            "in": "Kitchen",
+            "east": "Steep Mountain Path",
+            "west": "Stone Steps",
+            "up": "Top of Peach Tree"
+        },
+        "travel_descriptions": {
+            "in": "Leaving the openness of the Home Exterior behind, you step back in through the front door, re-entering the familiar and comforting confines of the Kitchen, where adventure is often born from the simplest of meals.",
+            "east": "Departing from the familiar setting of the Home Exterior, you begin your trek eastwards, every step drawing you closer to the challenges and perils of the Steep Mountain Path.",
+            "west": "Departing the familiar exterior of your home, you move west, embarking on a challenging journey towards the Stone Steps, the age-worn pathway cutting through the intimidating mountainous terrain.",
+            "up": "Leaving the familiar surroundings of the Home Exterior, you bravely stride towards the towering peach tree, steadily ascending its sturdy trunk and branches until you reach the Top of Peach Tree, laden with the promise of juicy fruits."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Cozy Bedroom",
+        "description": "A room full of soft cushions and warm blankets, it's the perfect cozy retreat after a long day. Moonlight pours in through a circular window, casting long shadows and bathing everything in a soft glow.",
+        "connections": {
+            "east": "Kitchen"
+        },
+        "travel_descriptions": {
+            "east": "Leaving the comforting embrace of the Cozy Bedroom, you head eastward, drawn by the tantalizing scents of the Kitchen, the promise of culinary delights enticing you with each creak of the well-trodden floorboards."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Mountain Base",
+        "description": "This is the base of the mountain from where Whisper begins her ascent.",
+        "connections": {
+            "west": "Whisper's Home"
+        },
+        "travel_descriptions": {
+            "west": "Descending from the base of the mountain, you move westwards, the comforting scent of Whisper's Home gradually growing stronger as you approach, returning from an exciting journey of adventure."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Forest Clearing",
+        "description": "Where Whisper interacts with a forest creature and answers its riddle to gain advice on the peach tree.",
+        "connections": {
+            "east": "Whisper's Home"
+        },
+        "travel_descriptions": {
+            "east": "Departing from the mysteries of the Forest Clearing, you journey steadfastly towards the east, soon finding yourself back amidst the familiar surroundings of Whisper's Home."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Peach Tree Grove",
+        "description": "Where Whisper must locate the Peach tree while dodging aggressive birds.",
+        "connections": {
+            "south": "Whisper's Home"
+        },
+        "travel_descriptions": {
+            "south": "With a triumphant heart and peaches in hand, you journey south from the bustling Peach Tree Grove, feeling the thrill of victory with every step. Gradually, you return to the welcoming solace of Whisper's Home, ready to celebrate your successful quest."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Steep Mountain Path",
+        "description": "A treacherous path on the side of the mountain that proves to be a challenge for even the most sure-footed adventurers. The path is littered with falling rocks and with each step, the fear of dropping off the edge is a very real possibility.",
+        "connections": {
+            "west": "Home Exterior"
+        },
+        "travel_descriptions": {
+            "west": "Navigating carefully along the treacherous terrain of the Steep Mountain Path, you make your journey westward, eventually finding yourself at the safety and comfort of the Home Exterior."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Stone Steps",
+        "description": "A steep flight of stone steps that cuts through the mountain's daunting terrain. The steps themselves are worn from years of use, a testament to the travelers who have ventured this way for centuries.",
+        "connections": {
+            "east": "Home Exterior"
+        },
+        "travel_descriptions": {
+            "east": "Leaving the steep, stone-carved steps of the mountain behind, you journey east, retracing your path back to the welcoming comfort of your Home Exterior."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    },
+    {
+        "name": "Top of Peach Tree",
+        "description": "The final location where the road ends and the tree begins. This is not just any tree though, it's the peach tree. Standing tall against the backdrop of the mountain, its fruits are just out of reach. The challenge is not in getting to the tree but in reaching for its peaches.",
+        "connections": {
+            "down": "Home Exterior"
+        },
+        "travel_descriptions": {
+            "down": "Descending from the lofty heights of the Top of the Peach Tree, you traverse downwards through knotted branches and sturdy trunk, finally finding yourself back at the familiar Home Exterior, the beginning of your journey."
+        },
+        "blocks": {},
+        "items": {},
+        "characters": {},
+        "has_been_visited": false,
+        "commands": [],
+        "properties": {}
+    }
+]

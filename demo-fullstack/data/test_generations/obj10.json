@@ -1,0 +1,16 @@
+{
+    "name": "Top of Peach Tree",
+    "description": "The final location where the road ends and the tree begins. This is not just any tree though, it's the peach tree. Standing tall against the backdrop of the mountain, its fruits are just out of reach. The challenge is not in getting to the tree but in reaching for its peaches.",
+    "connections": {
+        "down": "Home Exterior"
+    },
+    "travel_descriptions": {
+        "down": "Descending from the lofty heights of the Top of the Peach Tree, you traverse downwards through knotted branches and sturdy trunk, finally finding yourself back at the familiar Home Exterior, the beginning of your journey."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}

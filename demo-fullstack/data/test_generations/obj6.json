@@ -1,0 +1,16 @@
+{
+    "name": "Forest Clearing",
+    "description": "Where Whisper interacts with a forest creature and answers its riddle to gain advice on the peach tree.",
+    "connections": {
+        "east": "Whisper's Home"
+    },
+    "travel_descriptions": {
+        "east": "Departing from the mysteries of the Forest Clearing, you journey steadfastly towards the east, soon finding yourself back amidst the familiar surroundings of Whisper's Home."
+    },
+    "blocks": {},
+    "items": {},
+    "characters": {},
+    "has_been_visited": false,
+    "commands": [],
+    "properties": {}
+}
